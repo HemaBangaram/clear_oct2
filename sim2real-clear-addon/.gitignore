@@ -1,0 +1,9 @@
+# large artefacts produced by training / inference - keep them out of git
+training/checkpoint_*/
+training/model_*/
+training/*_done.ipynb
+testing/output_*/
+testing/*_done.ipynb
+.ipynb_checkpoints/
+__pycache__/
+*.zip
